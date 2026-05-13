@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // === CHANGES HAVE BEEN MADE HERE ===
 // Add the full URL, exactly like busService.js
-const API_URL = 'http://localhost:5000/api/users/';
+const API_URL = 'https://safetrack-1.onrender.com/api/users/';
 
 // Function for admin to get all users
 const getAllUsers = async (token) => {

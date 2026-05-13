@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/buses/';
+const API_URL = 'https://safetrack-1.onrender.com/api/buses/';
 
 // Create new bus
 const createBus = async (busData, token) => {
